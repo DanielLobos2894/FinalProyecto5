@@ -30,6 +30,9 @@
 			<table class="table">
 				<thead class="table-dark">
 
+					<div class="container">
+
+
 					<tr>
 						<th>Id</th>
 						<th>Categoria</th>
@@ -44,7 +47,7 @@
 					<c:forEach var="p" items="${Productos}">
 						<tr>
 							<th><c:out value="${p.getId()}" /></th>
-							<td><c:out value="${p.getCategoria()}"/></td>
+							<td><c:out value="${p.getCategoria()}" /></td>
 							<td><c:out value="${p.getNombre()}" /></td>
 							<td><c:out value="${p.getPrecio()}" /></td>
 							<td><c:out value="${p.getMarca()}" /></td>
@@ -56,7 +59,7 @@
 			</table>
 		</main>
 
-		
+
 
 
 
