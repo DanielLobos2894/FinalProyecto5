@@ -9,8 +9,8 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @Data  // agrega Productos getters and seters
-@AllArgsConstructor // agrega  todos los argumentos el constructor 
-@NoArgsConstructor // constructor sin argumentos
+//@AllArgsConstructor // agrega  todos los argumentos el constructor
+//@NoArgsConstructor // constructor sin argumentos
 
 
 public class Productos {
